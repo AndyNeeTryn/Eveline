@@ -1,17 +1,16 @@
-.letj {
-  background: -webkit-linear-gradient(left, #ABB9FC, #2250C7, #ABB9FC);
-  -webkit-animation: letframe 10s ease infinite;
-  -moz-animation: letframe 10s ease infinite;
-  background-size: 1000% 1000%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font:40px Julee; 
-  margin-bottom:-10px;
-  position:relative;
-  z-index:1;
-  text-shadow: -4px 2px rgb(245, 241, 239); 
-} 
+ .eve {
+   background: -webkit-linear-gradient(#FFF52A, #FF1212); 
+   -webkit-animation: letframe 10s ease infinite; 
+   -moz-animation: letframe 10s ease infinite; b
+   ackground-size: 1000% 1000%; 
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent; 
+   font:40px Yellowtail; 
+   margin-bottom:-20px; 
+   position:relative; 
+   z-index:1;
+   text-shadow: -4px 2px #EBEBEB;} 
 
-@keyframes letframe {
- 50% {background-position:100% 0%} 
- 100% {background-position:0% 100%}
+@keyframes letframe
+   {50% {background-position: 0% 100%} 
+   100% {background-position: 100% 0%}}
